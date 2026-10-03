@@ -1,0 +1,39 @@
+{
+  "name": "@vfvrpq/road-turns",
+  "version": "1.0.0",
+  "description": "Find hairpin turns & turn clusters in road geometry from OpenStreetMap Overpass data (cross-window bearing analysis)",
+  "main": "lib/turns.js",
+  "bin": {
+    "road-turns": "bin/cli.js"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "tests",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node tests/run.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "overpass",
+    "openstreetmap",
+    "osm",
+    "hairpin",
+    "turns",
+    "road",
+    "bearing",
+    "gpx",
+    "cycling",
+    "touge"
+  ],
+  "author": "439436269-ctrl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/439436269-ctrl/road-turns.git"
+  }
+}
