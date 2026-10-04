@@ -70,6 +70,9 @@ Mount Haruna, Gunma, Japan (県道33号渋川松井田線, 487-pt OSM trace, 7.4
 21 turns ≥60°, 12 turns ≥90°, max **164.1°**, and a **5-hairpin cluster inside 496 m**
 (96.7° / 118.4° / 79.4° / 91.7° / 90.0°) at cum 3.8–4.3 km. `npm test` asserts all of it.
 
+Test fixture `tests/haruna-kenodo33.json` contains a small excerpt of OSM way data
+(© OpenStreetMap contributors, ODbL).
+
 ## License
 
 MIT
